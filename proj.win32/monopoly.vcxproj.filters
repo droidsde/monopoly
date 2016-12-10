@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lottery">
+      <UniqueIdentifier>{697333b8-7860-45d6-9e59-37176471e442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\popupLayer">
+      <UniqueIdentifier>{e54495a4-44d2-4221-a3f8-6d9abc73923c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\prop">
+      <UniqueIdentifier>{53923a5c-174d-4ba9-99a0-9f1e4925cc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\skill">
+      <UniqueIdentifier>{0cb288af-f4b4-4dad-9fbf-720e5e56080c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stock">
+      <UniqueIdentifier>{7130edd3-289b-4285-b577-41c54c8db648}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameBaseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LanguageString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map1Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map2Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map3Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapChooseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RicherGameController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RicherPlayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RouteNavigation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SplashScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lottery\LotteryCard.cpp">
+      <Filter>src\lottery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stock\LineChart.cpp">
+      <Filter>src\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stock\Stock.cpp">
+      <Filter>src\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stock\StockCellCard.cpp">
+      <Filter>src\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stock\VisibleRect.cpp">
+      <Filter>src\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\skill\SkillCard.cpp">
+      <Filter>src\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Bee.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Emergency.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Fog.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Pearl.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Strength_up.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Stretcher.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popupLayer\CocosToast.cpp">
+      <Filter>src\popupLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popupLayer\PopupLayer.cpp">
+      <Filter>src\popupLayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConstUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBaseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LanguageString.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map1Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map2Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map3Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapChooseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RicherGameController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\richerplayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RouteNavigation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SplashScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lottery\LotteryCard.h">
+      <Filter>src\lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stock\LineChart.h">
+      <Filter>src\stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stock\Stock.h">
+      <Filter>src\stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stock\StockCellCard.h">
+      <Filter>src\stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stock\VisibleRect.h">
+      <Filter>src\stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\skill\SkillCard.h">
+      <Filter>src\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Bee.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Emergency.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Fog.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Pearl.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Strength_up.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Stretcher.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popupLayer\CocosToast.h">
+      <Filter>src\popupLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popupLayer\PopupLayer.h">
+      <Filter>src\popupLayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
